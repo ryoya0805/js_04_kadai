@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+#room {
+  width: 100%;
+  min-height: 100vh;
+  overflow: scroll;
+  background-color: rgb(113, 147, 193);
+}
+
+.chat-input {
+  position: fixed;
+  bottom: 0;
+}
+
+.box-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message-box {
+  padding: 50px;
+  max-width: 40%;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+#posi {
+  position: fixed; /* 要素の位置を固定する */
+  bottom: 0; /* 基準の位置を画面の一番下に指定する */
+  right: 0; /* 基準の位置を画面の一番右に指定する */
+  width: 300px; /* 幅を指定する */
+  border: 3px solid #326693; /* ボーダーを指定する */
+}
+
+#box-right {
+  font-size: 2em;
+  text-align: left;
+  line-height: 0.95em;
+  font-weight: bold;
+  color: #fffff0;
+  text-shadow: 0 0.05em 0.08em rgba(0, 0, 0, 0.7);
+}
